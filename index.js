@@ -25,6 +25,7 @@ function* gen() {
         promise2()
     ]);
     // console.log(vP);
+    return vP;
 }
 
 coroutine(gen);
